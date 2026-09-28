@@ -1,6 +1,3 @@
-/* =========================================
-   ESTILOS GENERALES
-========================================= */
 
 * {
     margin: 0;
@@ -25,13 +22,16 @@ body {
     padding: 0 20px;
 }
 
-
-/* =========================================
-   ENCABEZADO
-========================================= */
-
 header {
-    background: linear-gradient(135deg, #f2c6de 0%, #8d70b8 100%);
+    background:
+    linear-gradient(
+        105deg,
+        #3A121F 0%,
+        #50242D 25%,
+        #5F576D 55%,
+        #636E7E 78%,
+        #667283 100%
+    );
     color: white;
     padding: 45px 0;
     text-align: center;
@@ -69,6 +69,7 @@ header > .contenedor > h1 {
     margin-bottom: 5px;
     position: relative;
     z-index: 2;
+    color: 	#50242D;
 }
 
 .subtitulo {
@@ -77,12 +78,10 @@ header > .contenedor > h1 {
     opacity: 0.95;
     position: relative;
     z-index: 2;
+    color: #C7B69F;
+
 }
 
-
-/* =========================================
-   INTEGRANTES
-========================================= */
 
 .integrantes {
     display: flex;
@@ -169,7 +168,7 @@ section {
 h2 {
     text-align: center;
     margin-bottom: 40px;
-    color: #76559e;
+    color: #79505A;
     font-size: 2.2rem;
     position: relative;
 }
@@ -179,7 +178,7 @@ h2::after {
     display: block;
     width: 80px;
     height: 4px;
-    background: #f18fc6;
+    background: #C7B69F;
     margin: 15px auto;
     border-radius: 5px;
 }
@@ -286,7 +285,7 @@ h2::after {
 ========================================= */
 
 #habilidades {
-    background-color: #ffdbef;
+    background-color: #ced7e4;
 }
 
 .habilidades-lista {
@@ -297,7 +296,15 @@ h2::after {
 }
 
 .habilidad {
-    background: linear-gradient(135deg, #f18fc6, #9a78c1);
+    background:
+    linear-gradient(
+        105deg,
+        #3A121F 0%,
+        #50242D 25%,
+        #5F576D 55%,
+        #636E7E 78%,
+        #667283 100%
+    );
     color: white;
     padding: 12px 22px;
     border-radius: 30px;
@@ -342,7 +349,7 @@ input,
 textarea {
     width: 100%;
     padding: 15px;
-    border: 1px solid #f18fc6;
+    border: 1px solid #3A121F;
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.3s, box-shadow 0.3s;
